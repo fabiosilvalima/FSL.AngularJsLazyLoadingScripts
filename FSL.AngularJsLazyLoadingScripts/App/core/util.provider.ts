@@ -4,6 +4,20 @@
 
         constructor() {
 
+            this.cacheGuid = '?guid=' + this.generateGuid();
+            this.definition = <IDefinition>window['Definitions'];
+
+        }
+
+        private cacheGuid: string;
+        private definition: IDefinition;
+
+        getDependency(value: string): IDependency {
+            return this.definition[value];
+        }
+
+        getCacheGuid() {
+            return this.cacheGuid
         }
 
         generateGuid() {
@@ -20,6 +34,12 @@
 
         $get(): IUtilProvider {
             return {
+                getDependency: (value: string) => {
+                    return this.getDependency(value);
+                },
+                getCacheGuid: () => {
+                    return this.generateGuid();
+                },
                 generateGuid: () => {
                     return this.generateGuid();
                 },

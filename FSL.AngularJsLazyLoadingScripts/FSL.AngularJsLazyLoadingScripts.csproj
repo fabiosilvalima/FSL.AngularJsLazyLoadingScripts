@@ -28,8 +28,23 @@
     <Content Include="App\app.module.js">
       <DependentUpon>app.module.ts</DependentUpon>
     </Content>
+    <Content Include="App\app.routes.js">
+      <DependentUpon>app.routes.ts</DependentUpon>
+    </Content>
     <Content Include="App\core\core.module.js">
       <DependentUpon>core.module.ts</DependentUpon>
+    </Content>
+    <Content Include="App\core\state\generic.state.js">
+      <DependentUpon>generic.state.ts</DependentUpon>
+    </Content>
+    <Content Include="App\core\state\generic.state.options.interface.js">
+      <DependentUpon>generic.state.options.interface.ts</DependentUpon>
+    </Content>
+    <Content Include="App\core\state\state.module.js">
+      <DependentUpon>state.module.ts</DependentUpon>
+    </Content>
+    <Content Include="App\core\state\state.route.interface.js">
+      <DependentUpon>state.route.interface.ts</DependentUpon>
     </Content>
     <Content Include="App\core\util.interfaces.js">
       <DependentUpon>util.interfaces.ts</DependentUpon>
@@ -60,7 +75,12 @@
   <ItemGroup>
     <TypeScriptCompile Include="App\app.config.ts" />
     <TypeScriptCompile Include="App\app.module.ts" />
+    <TypeScriptCompile Include="App\app.routes.ts" />
     <TypeScriptCompile Include="App\core\core.module.ts" />
+    <TypeScriptCompile Include="App\core\state\generic.state.options.interface.ts" />
+    <TypeScriptCompile Include="App\core\state\generic.state.ts" />
+    <TypeScriptCompile Include="App\core\state\state.module.ts" />
+    <TypeScriptCompile Include="App\core\state\state.route.interface.ts" />
     <TypeScriptCompile Include="App\core\util.interfaces.ts" />
     <TypeScriptCompile Include="App\core\util.provider.ts" />
     <TypeScriptCompile Include="App\home\home.component.ts" />
@@ -103,6 +123,21 @@
       <DependentUpon>home.component.ts</DependentUpon>
     </Content>
     <Content Include="Scripts\angular-sanitize.min.js.map" />
+    <Content Include="App\core\state\generic.state.js.map">
+      <DependentUpon>generic.state.ts</DependentUpon>
+    </Content>
+    <Content Include="App\core\state\generic.state.options.interface.js.map">
+      <DependentUpon>generic.state.options.interface.ts</DependentUpon>
+    </Content>
+    <Content Include="App\core\state\state.module.js.map">
+      <DependentUpon>state.module.ts</DependentUpon>
+    </Content>
+    <Content Include="App\core\state\state.route.interface.js.map">
+      <DependentUpon>state.route.interface.ts</DependentUpon>
+    </Content>
+    <Content Include="App\app.routes.js.map">
+      <DependentUpon>app.routes.ts</DependentUpon>
+    </Content>
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
