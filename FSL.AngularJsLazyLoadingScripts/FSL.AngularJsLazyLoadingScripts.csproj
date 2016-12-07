@@ -47,8 +47,14 @@
     <Content Include="Css\app.css" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-sanitize.js" />
+    <Content Include="Scripts\angular-sanitize.min.js" />
+    <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\angular-ui-router.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\oclazyload\ocLazyLoad.js" />
+    <Content Include="Scripts\oclazyload\ocLazyLoad.min.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +65,7 @@
     <TypeScriptCompile Include="App\core\util.provider.ts" />
     <TypeScriptCompile Include="App\home\home.component.ts" />
     <TypeScriptCompile Include="App\home\home.controller.ts" />
+    <TypeScriptCompile Include="Scripts\typings\angular-ui-router\angular-ui-router.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-component-router.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
@@ -69,6 +76,7 @@
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.mb.browser.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\oclazyload\oclazyload.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\angular.min.js.map" />
@@ -94,6 +102,7 @@
     <Content Include="App\home\home.component.js.map">
       <DependentUpon>home.component.ts</DependentUpon>
     </Content>
+    <Content Include="Scripts\angular-sanitize.min.js.map" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
