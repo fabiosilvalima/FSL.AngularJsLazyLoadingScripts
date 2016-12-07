@@ -3,3 +3,6 @@
 ################################################################################
 
 /FSL.AngularJsLazyLoadingScripts/.vs
+/FSL.AngularJsLazyLoadingScripts/obj/Debug
+/FSL.AngularJsLazyLoadingScripts/packages
+*.user
