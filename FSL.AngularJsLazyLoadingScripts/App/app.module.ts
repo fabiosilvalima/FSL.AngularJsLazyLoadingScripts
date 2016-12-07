@@ -1,7 +1,7 @@
 ﻿(() => {
     angular
         .module('app', [
-            'app.pessoa'
+            'app.core.state'
         ]);
 })();
 

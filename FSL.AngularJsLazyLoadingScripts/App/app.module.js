@@ -1,7 +1,7 @@
 (function () {
     angular
         .module('app', [
-        'app.pessoa'
+        'app.core.state'
     ]);
 })();
 angular.element(document).ready(function () {
