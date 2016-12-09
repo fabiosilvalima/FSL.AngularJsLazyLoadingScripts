@@ -6,3 +6,5 @@
 /FSL.AngularJsLazyLoadingScripts/obj/Debug
 /FSL.AngularJsLazyLoadingScripts/packages
 *.user
+/.vs/FSL.AngularJsLazyLoadingScripts/v14
+/.vs/config
