@@ -5,7 +5,7 @@
         constructor() {
 
             this.cacheGuid = '?guid=' + this.generateGuid();
-            this.definition = <IDefinition>window['Definitions'];
+            this.definition = <IDefinition>window['definitions'];
 
         }
 

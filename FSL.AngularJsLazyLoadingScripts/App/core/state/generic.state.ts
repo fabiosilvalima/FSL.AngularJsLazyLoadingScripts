@@ -44,6 +44,7 @@
                 state.controllerAs = options.controllerAs || '$ctrl';
                 if (options.data) state.data = options.data;
                 if (resolve) {
+                    console.log(resolve);
                     state.resolve = resolve;
                 }
                 if (options.url) state.url = options.url;

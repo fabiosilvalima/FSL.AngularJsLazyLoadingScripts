@@ -3,7 +3,7 @@ var App;
     var Util = (function () {
         function Util() {
             this.cacheGuid = '?guid=' + this.generateGuid();
-            this.definition = window['Definitions'];
+            this.definition = window['definitions'];
         }
         Util.prototype.getDependency = function (value) {
             return this.definition[value];
