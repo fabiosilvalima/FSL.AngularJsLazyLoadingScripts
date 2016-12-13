@@ -1,7 +1,8 @@
 (function () {
     angular
         .module('app', [
-        'app.core.state'
+        'app.core.state',
+        'oc.lazyLoad'
     ]);
 })();
 angular.element(document).ready(function () {

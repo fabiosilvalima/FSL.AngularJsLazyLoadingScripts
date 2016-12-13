@@ -73,6 +73,7 @@
                         }
                     ]);
                 }
+                console.log('files', files);
             }
 
             return resolve;

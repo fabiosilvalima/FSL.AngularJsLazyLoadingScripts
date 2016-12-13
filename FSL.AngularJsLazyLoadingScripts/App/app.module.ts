@@ -1,7 +1,8 @@
 ﻿(() => {
     angular
         .module('app', [
-            'app.core.state'
+            'app.core.state',
+            'oc.lazyLoad'
         ]);
 })();
 
