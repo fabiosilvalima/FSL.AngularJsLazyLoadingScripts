@@ -28,7 +28,7 @@ What is the goal?
 
 **Assumptions:**
 
-- You need to create a virtual directory in your IIS for that application.
+- You need to create a virtual directory "AngularJsLazyLoadingScripts" in your IIS for that application.
 
 
 Explaining...
