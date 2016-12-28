@@ -35,4 +35,3 @@
         .module('app')
         .config(AppRoutes);
 })();
-//# sourceMappingURL=app.routes.js.map

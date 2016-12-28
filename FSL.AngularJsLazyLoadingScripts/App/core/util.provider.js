@@ -44,4 +44,3 @@ var App;
         .module('app.core', [])
         .provider('util', Util);
 })(App || (App = {}));
-//# sourceMappingURL=util.provider.js.map

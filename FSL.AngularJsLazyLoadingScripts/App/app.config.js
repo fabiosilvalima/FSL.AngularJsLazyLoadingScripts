@@ -19,4 +19,3 @@
         .module('app')
         .config(AppConfig);
 })();
-//# sourceMappingURL=app.config.js.map

@@ -287,6 +287,7 @@
       <DependentUpon>app.definition.ts</DependentUpon>
     </Content>
     <Content Include="Scripts\angular-route.min.js.map" />
+    <None Include="FSL.AngularJsLazyLoadingScripts.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

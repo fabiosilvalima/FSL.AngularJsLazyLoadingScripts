@@ -8,3 +8,6 @@
 *.user
 /.vs/FSL.AngularJsLazyLoadingScripts/v14
 /.vs/config
+/FSL.AngularJsLazyLoadingScripts/bin
+/FSL.AngularJsLazyLoadingScripts/obj/Release
+/packages

@@ -5,4 +5,3 @@
         'app.core'
     ]);
 })();
-//# sourceMappingURL=state.module.js.map
