@@ -4,6 +4,8 @@
 
 In this article I will show you how to load your scripts and styles using AngularJS and UI router resolve just when it's needed.
 
+![enter image description here](https://fabiosilvalima.files.wordpress.com/2016/12/angular-reloaded.png)
+
 > **LIVE DEMO:**
 > 
 http://codefinal.com/FSL.AngularJsLazyLoadingScripts/
