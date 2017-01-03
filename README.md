@@ -10,6 +10,12 @@ In this article I will show you how to load your scripts and styles using Angula
 > 
 http://codefinal.com/FSL.AngularJsLazyLoadingScripts/
 
+> **FULL ARTICLE:**
+>
+> English: https://fabiosilvalima.net/2016/12/13/angularjs-reloaded-lazy-loading-files/
+>
+> Português: https://fabiosilvalima.com.br/2016/12/13/angularjs-reloaded-lazy-loading-files/
+
 ---
 
 What is in the source code?
