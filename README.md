@@ -4,7 +4,7 @@
 
 In this article I will show you how to load your scripts and styles using AngularJS and UI router resolve just when it's needed.
 
-![enter image description here](https://fabiosilvalima.files.wordpress.com/2016/12/angular-reloaded.png)
+![enter image description here](https://fabiosilvalima.net/wp-content/uploads/2017/01/fabiosilvalima-angularjs-reloaded-lazy-loading-files-1.jpg)
 
 > **LIVE DEMO:**
 > 
@@ -12,9 +12,9 @@ http://codefinal.com/FSL.AngularJsLazyLoadingScripts/
 
 > **FULL ARTICLE:**
 >
-> English: https://fabiosilvalima.net/2016/12/13/angularjs-reloaded-lazy-loading-files/
+> English: https://fabiosilvalima.net/en/angularjs-reloaded-lazy-loading-files/
 >
-> Português: https://fabiosilvalima.com.br/2016/12/13/angularjs-reloaded-lazy-loading-files/
+> Português: https://fabiosilvalima.net/angularjs-reloaded-lazy-loading-files/
 
 ---
 
@@ -148,4 +148,4 @@ Licence:
 - Licence MIT
 
 
-  [1]: http://www.fabiosilvalima.com.br
+  [1]: https://fabiosilvalima.net
